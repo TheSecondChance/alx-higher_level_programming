@@ -13,7 +13,8 @@ def roman_to_int(roman_string):
     }
     value_in = 0
     for i in range(len(roman_string)):
-        if i > 0 and roman_num[roman_string[i]] > roman_num[roman_string[i - 1]]:
+        if i > 0 and roman_num[roman_string[i]] 
+        > roman_num[roman_string[i - 1]]:
             value_in += roman_num[roman_string[i]] - \
                 2 * roman_num[roman_string[i - 1]]
         else:
