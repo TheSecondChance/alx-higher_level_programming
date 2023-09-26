@@ -2,6 +2,7 @@
 """This for 1-square
 Define a class Square"""
 
+
 class Square:
     """This for Represent a square
     """
