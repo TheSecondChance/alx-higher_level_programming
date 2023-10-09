@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""This for class MyList inherits from list"""
+"""
+This for class MyList that inherits from list
+"""
 
 
 class MyList(list):
@@ -7,10 +9,8 @@ class MyList(list):
 
     def __init__(self):
         """Initialize the object"""
-
         super().__init__()
 
     def print_sorted(self):
-        """Print sorted lsit"""
-
+        """Prints sorted list"""
         print(sorted(self))
