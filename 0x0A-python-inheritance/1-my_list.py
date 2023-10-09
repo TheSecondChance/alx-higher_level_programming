@@ -13,4 +13,7 @@ class MyList(list):
 
     def print_sorted(self):
         """Prints sorted list"""
-        print(sorted(self))
+
+        new_list = self.copy()
+        new_list.sort()
+        print("{}".format(new_list))
