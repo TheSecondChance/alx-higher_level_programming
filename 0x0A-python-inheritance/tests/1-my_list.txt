@@ -1,5 +1,5 @@
 Using ``1-my_list`` module
-======================
+== == = =================
 
 Using ``MyList``
 -------------------
@@ -22,10 +22,11 @@ Testing for class docstring:
     >>> len(c) > 1
     True
 
-Testing for empty list:
-	>>> l = MyList()
-	>>> l.print_sorted()
-	[]
+Testing sorted list 3 (one number)
+    >>> my_list = MyList()
+    >>> my_list += [3]
+    >>> my_list.print_sorted()
+    [3]
 
 Testing that MyList Inheritance:
 	>>> issubclass(MyList, list)
