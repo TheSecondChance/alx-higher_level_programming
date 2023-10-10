@@ -16,7 +16,7 @@ class Student:
     def to_json(self, attrs=None):
         """Retrive the dict reprenting"""
         if attrs is None:
-            return self.__dict__.copy()
+            return self.__dict__
         dicte = {}
         for i in attrs:
             if i in self.__dict__.keys():
