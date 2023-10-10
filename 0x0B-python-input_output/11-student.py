@@ -27,9 +27,9 @@ class Student:
         """ replaces all attributes of the Student instance
         """
 
-       pwd_dict = self.__dict__
-       for i in json.keys():
-           for yalew_i in pwd_dict.keys():
-               if i == yalew_i:
-                   pwd_dict[yalew_i] = json[i]
-        return yalew_i
+        pwd_dict = self.__dict__
+        for i in json.keys():
+            for yalew_i in pwd_dict.keys():
+                if i == yalew_i:
+                    pwd_dict[yalew_i] = json[i]
+                    return yalew_i
