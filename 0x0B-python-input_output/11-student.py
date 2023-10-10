@@ -27,4 +27,3 @@ class Student:
         """Replaces all attributes Student instance"""
         for i in json:
             self.__dict__[i] = json[i]
-
