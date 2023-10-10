@@ -9,8 +9,8 @@ class Student:
         """
         special method initialize
         """
-        self.name = first_name
-        self.lname = last_name
+        self.first_name = first_name
+        self.last_name = last_name
         self.age = age
 
     def to_json(self):
