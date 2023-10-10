@@ -8,6 +8,11 @@ load_from_json = __import__("6-load_from_json_file").load_from_json_file
 
 
 def add_item(args, filename):
+    """Adds items JSON file.
+    Args:
+        args: list of items to add.
+        filename: path to the JSON file.
+    """
     content = load_from_json(filename) if os.path.exists(filename) else []
     content.extend(args)
     save_to_json(content, filename)
