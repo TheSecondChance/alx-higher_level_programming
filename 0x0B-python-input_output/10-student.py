@@ -19,6 +19,6 @@ class Student:
             return self.__dict__.copy()
         dicte = {}
         for i in attrs:
-            if i in self.__dict.keys():
+            if i in self.__dict__.keys():
                 dicte[i] = self.__dict__[i]
         return dicte
