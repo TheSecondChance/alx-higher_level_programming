@@ -24,12 +24,7 @@ class Student:
         return dicte
 
     def reload_from_json(self, json):
-        """ replaces all attributes of the Student instance
-        """
+        """Replaces all attributes Student instance"""
+        for i in json:
+            self.__dict__[i] = json[i]
 
-        pwd_dict = self.__dict__
-        for i in json.keys():
-            for yalew_i in pwd_dict.keys():
-                if i == yalew_i:
-                    pwd_dict[yalew_i] = json[i]
-        return yalew_i
