@@ -15,4 +15,4 @@ class Student:
 
     def to_json(self):
         """Retrive the dict reprenting"""
-        return self.__dict__
+        return self.__dict__.copy()
