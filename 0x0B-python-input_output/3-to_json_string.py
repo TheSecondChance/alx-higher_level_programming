@@ -9,6 +9,4 @@ def to_json_string(my_obj):
         Args:
             my_obj: str representation
         Return: the JSON representation"""
-
-        return json.dumps(my_obj)
-
+    return json.dumps(my_obj)
