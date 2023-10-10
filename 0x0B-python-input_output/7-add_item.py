@@ -13,9 +13,13 @@ def add_item(args, filename):
         args: list of items to add.
         filename: path to the JSON file.
     """
-    content = load_from_json(filename) if os.path.exists(filename) else []
+    if (os.path.exists(filename)):
+        content = load_from_json(filename)
+    else:
+        content = []
     content.extend(args)
     save_to_json(content, filename)
+
 
 if __name__ == "__main__":
     args = sys.argv[1:]
