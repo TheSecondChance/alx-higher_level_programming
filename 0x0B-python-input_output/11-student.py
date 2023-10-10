@@ -32,4 +32,4 @@ class Student:
             for yalew_i in pwd_dict.keys():
                 if i == yalew_i:
                     pwd_dict[yalew_i] = json[i]
-                    return yalew_i
+        return yalew_i
