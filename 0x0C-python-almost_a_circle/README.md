@@ -14,3 +14,7 @@ Static method.
 Inheritance.
 Unittest.
 Read/Write file.
+
+#Author
+
+This project was created by Eyasu Sintayehu (https://github.com/TheSecondChance), a student at ALX.
