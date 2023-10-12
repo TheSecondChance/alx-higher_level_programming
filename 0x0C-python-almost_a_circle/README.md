@@ -1,7 +1,10 @@
 #C-python-almost_a_circle
+
+
 In this project, you will review everything about Python:
 
 Import
+
 Exceptions
 Class
 Private attribute
