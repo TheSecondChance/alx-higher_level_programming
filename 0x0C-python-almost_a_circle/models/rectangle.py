@@ -117,7 +117,7 @@ class Rectangle(Base):
         self.__y = value
 
     def area(self):
-        """Area of Rectangle
+        """The Area of Rectangle
 
     Returns:
             int: the area of the Rectangle"""
