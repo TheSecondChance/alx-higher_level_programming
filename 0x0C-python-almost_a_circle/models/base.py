@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Module contains class Base"""
+import json
+import csv
 
 
 class Base:
@@ -135,3 +137,4 @@ class Base:
                 return [cls.create(**dic) for dic in list_dicts]
         except IOError:
             return []
+
