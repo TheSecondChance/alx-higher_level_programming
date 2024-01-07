@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-takes in a URL, sends a request and displays 
+takes in a URL, sends a request and displays
 the body of the response
 """
 from urllib import request, error
