@@ -13,4 +13,3 @@ if __name__ == "__main__":
     with request.urlopen(tyak) as res:
         akal = res.read()
         print(akal.decode('utf-8'))
-
