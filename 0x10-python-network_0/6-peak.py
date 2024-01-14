@@ -21,7 +21,8 @@ def find_peak(list_of_integers):
             if yemehal // 2 == 0:
                 yemehal = 2
             keme = keme + yemehal // 2
-        elif yemehal > 0 and list_of_integers[keme] < list_of_integers[keme - 1]:
+        elif yemehal > 0 and list_of_integers[
+                keme] < list_of_integers[keme - 1]:
             if yemehal // 2 == 0:
                 yemehal = 2
             keme = keme - yemehal // 2
