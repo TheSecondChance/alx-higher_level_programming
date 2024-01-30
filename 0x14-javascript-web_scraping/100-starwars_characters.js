@@ -9,7 +9,6 @@ reques.get(url + id, function (error, response, body) {
   }  
   const data = JSON.parse(body);
   const dataChar = data.characters;
-
   for (const i of dataChar) {
     reques.get(i, function (error, response, bodyOne) {
       if (error) {
